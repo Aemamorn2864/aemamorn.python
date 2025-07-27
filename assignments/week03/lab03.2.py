@@ -31,12 +31,12 @@ if entered_pin == pin:
 
         if choice == "2":
            withdrew = float(input("withdraw amount: "))
-           if withdraw < 0:
+           if withdraw < "0":
               print("Cannot withdeaw less than 0")
               continue
            else:
              balance = balance + withdraw
-            print("Successfully, your balance now =", balance)
+            print("Successfully, your balance now = ", balance)
            
         if choice == "1":
            print("Your balance now =", balance)
